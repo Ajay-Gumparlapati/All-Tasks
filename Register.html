@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .box {
+            border: 2px solid #000; 
+            padding: 20px; 
+            margin: 20px auto; 
+            width: 300px; 
+            border-radius: 10px; 
+            text-align: center;
+        }
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body style="background-color: brown;">
+   <div class="box">
+        <h3>Registration Page</h3>
+        <form action="./BookMarks.html" autocomplete="off">
+            <label for="">User Name:</label>
+            <input type="text" placeholder="Enter User Name" required maxlength="6"><br><br>
+            <label for="">Email:</label>
+            <input type="email" placeholder="Enter Your Email" required autocomplete="off" maxlength=""><br><br>
+            <label for="">New password:</label>
+            <input type="password" placeholder="Enter New Password" required maxlength="6" minlength="4"><br><br>
+            <label for="">Confirm password:</label>
+            <input type="password" placeholder="Enter Confirm Password" required maxlength="6" minlength="4"><br><br>
+            <button type="Register" name="action">Register</button>
+            
+        </form>
+        <p>Already have an Account?</p>
+        <form action="./index.html" method="get" >
+            <button type="action" name="action">Login</button>
+        </form>
+    </div>
+</body>
+</html>

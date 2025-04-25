@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .box {
+            border: 2px solid #000; 
+            padding: 20px; 
+            margin: 20px auto; 
+            width: 300px; 
+            border-radius: 10px; 
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Login</h3>
+        <form action="./BookMarks.html" method="post" autocomplete="off">
+            <label for="username">User name:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter User Name" required ><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required maxlength="6" minlength="4"><br><br>
+            <button type="submit">Submit</button>
+        </form><br>
+        <form action="./Forget.html" method="get">
+            <button type="submit" style="background-color: burlywood;">Forget Password</button>
+        </form>
+        <p>Don't have an Account?</p>
+        <form action="./Register.html" method="get">
+            <button type="submit" style="background-color: yellow;">Registration Form</button>
+        </form>
+       
+    </div>
+</body>
+</html>

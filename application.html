@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body style="background-color:aliceblue;"> 
+    <h2>Applicant Details</h2>
+    <hr>
+    <label for="type">Mr/Mrs/Miss/Ms/Other</label><br>
+    <input type="text" id="type" name="type"><br><br>
+    <label for="app">Full Name</label><br>
+    <input type="text" id="app" name="app" placeholder="First Name">
+    <input type="text" id="app" name="app" placeholder="Middle name">
+    <input type="text" id="app" name="app" placeholder="Last Name"><br><br 
+    <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+    <label for="birth">Birth Date</label><br>
+    <input type="date" name="birth" id="birth"><br><br>
+    <label for="nation">Nationality</label><br>
+    <input type="text" name="nation" id="nation"><br><br>
+    <label for="country">Country of birth</label><br>
+    <input type="text" name="country" id="country"><br>
+    <label for="Have">Have you been resident in the UK/other EU member state for the last 3 years?</label><br>
+            <select id="Have" name="Have">
+                <option value="male">yes</option>
+                <option value="female">No</option>
+            </select> <br><br>
+  <label for="num">Mobile Number</label><br>
+    <input type="tel" name="num" id="num"><br><br>
+    <label for="birth">Present Address</label><br>
+    <input type="text" name="birth" id="birth" placeholder="Street Address Line 1"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="Street Address Line 2"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="City"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="State"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="Postal/Zip code"><br><br>
+    <label for="birth">Permanent Address</label><br>
+    <input type="text" name="birth" id="birth" placeholder="Street Address Line 1"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="Street Address Line 2"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="City"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="State"><br><br>
+    <input type="text" name="birth" id="birth" placeholder="Postal/Zip code"><br><br>
+  <label for="Mail">E-Mail</label><br>
+  <input type="email" name="Mail" id="Mail"><br><br>
+  <label for="person">Person to contact in case of emergency:</label><br>
+  <input type="text" name="person" id="person" placeholder="Parent/Guardian"><br> <br>
+  <label for="person">Relationship</label><br>
+  <input type="text" name="person" id="person" placeholder="Father, Mother, etc."><br> <br>
+  <label for="Address">Address of person to contact in case of emergency</label><br>
+  <input type="text" name="Address" id="Address"><br><br>
+  <h2>Course of Study Applied for:</h2>
+  <hr>
+  <label for="course">name of course:</label><br>
+  <select id="course" name="course">
+    <option value="male">Java</option>
+    <option value="female">Python</option>
+</select> <br><br>
+<label for="mode">mode of study</label><br>
+<input type="checkbox" name="mode" id="mode">Full time <br>
+<input type="checkbox" name="mode" id="mode">Part time <br>
+<input type="checkbox" name="mode" id="mode">Distance learning <br><br>
+<label for="start">Proposed start date(Month,Year):</label><br>
+<input type="text" name="start" id="start" required><br>
+<label for="if">If you are applying for advanced entry(APL) please indicate proposed year</label><br>
+<input type="checkbox" name="if" id="if">Yr1 <br>
+<input type="checkbox" name="if" id="if">Yr2 <br>
+<input type="checkbox" name="if" id="if">yr3 <br>
+<input type="checkbox" name="if" id="if">yr4 <br>
+<input type="checkbox" name="if" id="if">yr5 <br><br>
+<h2>Fees Information:</h2>
+<p>You must give details of who be paying your fees.</p>
+<hr>
+<label for="fees">Who is expected to pay your fees?</label><br>
+<input type="radio" name="fees" id="fees">Yourself <br>
+<input type="radio" name="fees" id="fees">Sponsor <br><br>
+<label for="name">Name and address to which invoice is to be sent(if different from above)</label><br>
+<input type="text" name="name" id="name"><br><br>
+<h2>Education:</h2>
+<p>Please give details of all Schools/Colleges/Universities attended.</p>
+<hr>
+<b>Secondary/Further/Higher Education</b>
+<table cellspacing="0" border="1" cellpadding="10px">
+    <tr>
+        <td></td>
+        <td><b>Name of secondary School/College/University</b> </td>
+        <td><b>Address</b></td>
+        <td><b>Dates Attended From(mm/yy)To(mm/yy)</b></td>
+        
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<h2>Education Qualifications:</h2>
+<hr>
+<p>Educational Qualifications</p>
+<table cellpadding="10px" border="1" cellspacing="0">
+     <tr>
+        <td></td>
+        <td>Subject</td>
+        <td>Level(eg IGCSE, IB, BA, MSc)</td>
+        <td>Grade</td>
+        <td>date(mm/yy)</td>
+        
+     </tr>
+     <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+     </tr>
+</table>
+
+</body>
+</html>
